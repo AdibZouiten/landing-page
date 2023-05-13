@@ -1,0 +1,162 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+
+body{
+    font-size:18px;
+    min-height:90vh;
+    font-family:inter;
+}
+
+
+header{
+    background-color:#1F2937;
+    color:white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:1em 3em;
+}
+ul{
+    display: flex;
+    list-style: none;
+    gap:30px;
+    font-weight:300;
+}
+
+.logo{
+    font-size:24px;
+}
+.hero{
+    padding:5em 3em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap:50px;    
+    max-width:1300px;
+    margin:0 auto;
+}
+h1{
+    font-size:48px;
+    font-weight:800;
+    margin-bottom:0.3em;
+}
+
+
+img{
+    width:50%;
+    object-fit: cover;
+}
+
+.container-hero{
+    background-color:#1F2937;
+    color:white;
+}
+
+
+.btn{
+    padding:0.7em 1.5em;
+    background-color:rgb(50, 84, 234);
+    color: white;
+    text-decoration: none;
+    margin:1em 0;
+    display: inline-block;
+    border-radius:0.4em;
+}
+
+
+.container-random{
+    padding:2em;
+    margin:0 auto;
+    max-width:1300px;
+    width:95%;
+    text-align: center;
+}
+.container-random h1{
+    font-size:30px;
+}
+
+.cards{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap:100px;
+    margin:2em 0;
+}
+.card{
+    font-size:15px;
+}
+
+.bordered-card{
+    border:1px solid #1F2937;
+    padding:6em;
+    border-radius:10px;
+    margin-bottom:1em;
+    margin-top:3em;
+}
+
+
+
+
+.text{
+    background-color:#e5e7eb;
+    padding:5em;
+}
+.container-text{
+    max-width:900px;
+    width:95%;
+    margin:0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.container-text h1{
+    font-weight:300;
+}
+
+.container-text p{
+    align-self: flex-end;
+    font-weight:800;
+
+}
+
+
+
+.cta{
+    background-color:white;
+    margin:0 auto;
+    padding:5em;
+}
+
+.cta-card{
+    background-color:#3882f6;
+    color: white;
+    padding:4em;
+    border-radius:10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn-cta{
+    background-color:transparent;
+    border:1px solid white;
+}
+
+footer{
+    background-color: #1F2937;
+    color: white;
+    text-align: center;
+    padding:3em;
+}
+
+
+
+
+
+
+
+
+
